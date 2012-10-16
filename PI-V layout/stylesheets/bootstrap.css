@@ -4970,6 +4970,11 @@ a.badge:hover {
   float: left;
 }
 
+.pull-center {
+    float: right;
+    width: 450px;
+}
+
 .hide {
   display: none;
 }
