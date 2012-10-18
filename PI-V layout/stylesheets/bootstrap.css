@@ -4986,3 +4986,6 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+.logo-home {
+  margin-top: 20px;
+}
