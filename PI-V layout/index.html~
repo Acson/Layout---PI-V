@@ -39,7 +39,7 @@
       <div class="nav-collapse"><!-- Other nav bar content -->
        	<ul class="nav">
 		<li class="active"><a href="#">Home</a></li>
-		<li><a href="cadastro_empresa.html">Cadastros</a></li>
+		<li><a href="#">Cadastros</a></li>
 		<li><a href="#">Link</a></li>
 		</ul>
  

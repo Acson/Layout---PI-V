@@ -4992,7 +4992,7 @@ a.badge:hover {
 .titulo_formulario{
  display: block;
   width: 100%;
-  padding: 30px 0 1px;
+  padding: 0;
   margin-bottom: 27px;
   font-size: 19.5px;
   line-height: 36px;

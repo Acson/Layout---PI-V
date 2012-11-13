@@ -39,7 +39,7 @@
       <div class="nav-collapse"><!-- Other nav bar content -->
        	<ul class="nav">
 		<li class="active"><a href="#">Home</a></li>
-		<li><a href="cadastro_empresa.html">Cadastros</a></li>
+		<li><a href="#">Cadastros</a></li>
 		<li><a href="#">Link</a></li>
 		</ul>
  
@@ -88,43 +88,138 @@
 	</div> -->
 	<div class="container">
 		<!-- Main hero unit for a primary marketing message or call to action -->
-		<div class="hero-unit clearfix">
- <div class="pull-left span5">
-  <h1>Bem-vindo</h1>
-  <p>Gerencie sua oferta aqui.</p>
-  <p><a class="btn btn-primary btn-large">Explore our articles</a></p>
- </div>
- <div class="pull-right">
-   POr algo aqui
- </div>
-</div>
-<div class="row">
-	<div class="span4">
-		<div class="thumbnail">
-		 <img alt="" src="img/cadastrar_oferta.png">
-		 <div class="caption">
-		   <h5>Thumbnail label</h5>
-		   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		   <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
-		 </div>
-		</div>
-	</div>
-	<div class="span4">
-<div class="thumbnail">
- <img alt="" src="img/cadastrarempresa.png">
- <div class="caption">
-   <h5>Thumbnail label</h5>
-   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-   <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
- </div>
-</div>
-	</div>
-	<div class="span4">
-        Colocar a lista das ofertas mais acessadas ou alguma outra coisa.
-	</div>
-</div>
+<form class="form-horizontal">
+        <fieldset>
+             <div class="titulo_formulario">Cadastro de empresa</div>
+          
+          
+          <div class="control-group">
+            <label class="control-label" for="input01">Razão social</label>
+             <div class="controls">
+              <input type="text" class="input-xlarge" id="input01">
+              <p class="help-block"></p>
+             </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="input03">Nome Fantasia (opcional)</label>
+             <div class="controls">
+              <input type="text" class="input-xlarge" id="input03">
+              <p class="help-block"></p>
+             </div>
+          </div>
+          
+           <div class="control-group">
+            <label class="control-label" for="input02">CNPJ</label>
+             <div class="controls">
+              <input type="text" class="input-xlarge" id="input02">
+              <p class="help-block"></p>
+             </div>
+          </div>
+       
+          <div class="control-group">
+            <label class="control-label" for="select02">País</label>
+            <div class="controls">
+              <select id="select02">
+                <option>País 1</option>
+                <option>País 2</option>
+                <option>País 3</option>
+                <option>País 4</option>
+                <option>País 4</option>
+               
+              </select>
+            </div>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label" for="select03">Estado</label>
+            <div class="controls">
+              <select id="select03">
+                <option>Estado 1</option>
+                <option>Estado 2</option>
+                <option>Estado 3</option>
+                <option>Estado 4</option>
+                <option>Estado 4</option>
+               
+              </select>
+            </div>
+          </div>
+          
+            
+          <div class="control-group">
+            <label class="control-label" for="select03">Cidade</label>
+            <div class="controls">
+              <select id="select03">
+              
+                <option>Cidade 1</option>
+                <option>Cidade 2</option>
+                <option>Cidade 3</option>
+                <option>Cidade 4</option>
+                <option>Cidade 4</option>
+               
+              </select>
+            </div>
+          </div>
+          
+           
+           <div class="control-group">
+            <label class="control-label" for="input06">CEP</label>
+             <div class="controls">
+              <input type="text" class="input-xlarge" id="input06">
+              <p class="help-block"></p>
+             </div>
+          </div>
+  
+          
+          <div class="control-group">
+             <label class="control-label" for="textarea">Endereço (Rua, bairro, número)</label>
+            <div class="controls">
+              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+            </div>
+          </div>
+          
+            <div class="control-group">
+            <label class="control-label" for="input05">Ramo de atividade</label>
+             <div class="controls">
+              <input type="text" class="input-xlarge" id="input05">
+              <p class="help-block"></p>
+             </div>
+          </div>
+          
+                  <div class="control-group">
+            <label class="control-label" for="select01">Porte</label>
+            <div class="controls">
+              <select id="select01">
+                <option>Escolha</option>
+                <option>Micro</option>
+                <option>Pequeno</option>
+                <option>Médio</option>
+                <option>Grande</option>
+               
+              </select>
+            </div>
+          </div>
+       
+     
+          <div class="control-group">
+            <label class="control-label" for="fileInput">Logomarca</label>
+            <div class="controls">
+              <input class="input-file" id="fileInput" type="file">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="textarea">Complemento</label>
+            <div class="controls">
+              <textarea class="input-xlarge" id="textarea" rows="4"></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button class="btn">Cancelar</button>
+          </div>
+        </fieldset>
+</form>
 		<footer>
-			<p>&copy; Company 2012</p>
+			<p>&copy; Arreceba 2012</p>
 		</footer>
 	</div> <!-- /container -->
 
