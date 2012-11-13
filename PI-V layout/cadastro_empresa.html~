@@ -47,7 +47,6 @@
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
               <!-- Login form here -->
               <li><a href="cadastro_empresa.html">Empresa</a></li>
-              <li><a href="#">Oferta</a></li>
             </div>
           </li>
           
