@@ -21,33 +21,48 @@
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/images/apple-touch-icon-114x114.png">
+	<link href="menu_assets/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Início</span></a></li>
+   <li class='has-sub '><a href='#'><span>Cadastro</span></a>
+      <ul>
+         <li><a href='cad_empresa.html'><span>Empresa</span></a></li>
+         <li><a href='cad_oferta.html'><span>Oferta</span></a></li>
+      </ul>
+   </li>
+   <li><a href='#'><span>Sobre</span></a></li>
+   <li><a href='contato.html'><span>Contato</span></a></li>
+</ul>
+</div>
+<!--
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container"><!-- Collapsable nav bar -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+     <!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
  
       <!-- Your site name for the upper left corner of the site -->
-      <a class="brand">@rreceba</a>
+   <!--   <a class="brand">@rreceba</a>
  
       <!-- Start of the nav bar content -->
-      <div class="nav-collapse"><!-- Other nav bar content -->
-       	<ul class="nav">
+    <!--  <div class="nav-collapse"><!-- Other nav bar content -->
+   <!--    	<ul class="nav">
 			<li class="active"><a href="index.html">Início</a></li>
 		
         <!-- Inicio do menu dropdown-->
         
-         <li class="dropdown">
+      <!--   <li class="dropdown">
             <a class="dropdown-toggle" href="#" data-toggle="dropdown">Cadastros<strong class="caret"></strong></a>
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
               <!-- Login form here -->
-              <li><a href="cadastro_empresa.html">Empresa</a></li>
-              <li><a href="cadastro_empresa.html">Oferta</a></li>
+       <!--       <li><a href="cadastro_empresa.html">Empresa</a></li>
+              <li><a href="#">Oferta</a></li>
               
             </div>
           </li>
@@ -55,18 +70,18 @@
           <!-- Fim do menu dropdown-->
           
           
-		<li><a href="#">Link</a></li>
+	<!--	<li><a href="#">Link</a></li>
         </ul>
  
         <!-- The drop down menu -->
-        <ul class="nav pull-right">
+    <!--    <ul class="nav pull-right">
           <li><a href="/users/sign_up">Sign Up</a></li>
           <li class="divider-vertical"></li>
           <li class="dropdown">
             <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
               <!-- Login form here -->
-                        <form action="[YOUR ACTION]" method="post" accept-charset="UTF-8">
+            <!--            <form action="[YOUR ACTION]" method="post" accept-charset="UTF-8">
                           <span> Login</span><input id="user_username" style="margin-bottom: 15px;" type="text" name="user[username]" size="30" />
                           <input id="user_password" style="margin-bottom: 15px;" type="password" name="user[password]" size="30" />
                           <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" />
@@ -80,27 +95,8 @@
       </div>
     </div>
   </div>
-</div>
-<!--
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a>
-				<a class="brand" href="#">@rreceba</a>
-				<div class="nav-collapse">
-					<ul class="nav">
-						<li class="active"><a href="#">Início</a></li>
-						<li><a href="#about">Sobre</a></li>
-					    
-					</ul>
-				</div>< !--/.nav-collapse -->
-			<!-- </div>
-		</div>
-	</div> -->
+</div>  -->
+
 	<div class="container">
 		<!-- Main hero unit for a primary marketing message or call to action -->
 		<div class="hero-unit clearfix">
